@@ -1,0 +1,129 @@
+.cabecalho {
+    height: 80px;
+    background-color: black;
+}
+.rodape{
+    display:flex;
+    margin-top: 40px;
+    height: 540px;
+    background-color: black;
+}
+.coluna-esq{
+    width: 50%;
+    height: 100%;
+}
+.coluna-dir{
+    width: 50%;
+    height: 100%;
+    
+}
+.texto2{
+    height: 340;
+    margin-top: 40px;
+}
+.texto{
+    margin-top: 40px;
+    height: 60%;
+}
+.forma-pag{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 35px;
+    height: 15%;
+
+}
+.texto p{
+    color: white;
+    margin: 10px 10px 0px 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: justify;
+}
+.quadrado{
+    width: 90px;
+    height: 90px;
+    background-color:white;
+}
+.texto2 p{
+    color: white;
+    margin: 10px 10px 0px 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: justify;
+}
+.pedido-texto p{
+    width: 400px;
+    height: 200px;
+    font-size: 32;
+
+}
+.qtd{
+    font-size: 48px;
+}
+.valor{
+    font-size: 48px;
+}
+.sub-qtd{
+    background-color: white;
+    width: 72px;
+    height: 72px;
+
+}
+.add-qtd{
+    background-color: white;
+    width: 72px;
+    height: 72px;
+}
+.pedido-img{
+    background-color: white;
+    width: 272px;
+    height: 254px;
+}
+.pedido {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 70px 70px 70px 70px;
+    height: 350px;
+    background-color: #C4C4C4;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-qtd p{
+    padding-bottom: 10px;
+    font-size: 64px;
+}
+.add-qtd p{
+    font-size: 48px;
+}
+.cont-fin{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100;
+}
+.cont-comp{
+    width: 400;
+    font-size: 36px;
+    background-color: #C4C4C4;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final{
+    width: 400;
+    font-size: 36px;
+    background-color: #C4C4C4;
+    height: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

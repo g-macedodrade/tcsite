@@ -1,0 +1,97 @@
+.cabecalho {
+    height: 80px;
+    background-color: black;
+}
+.banner{
+    height: 250px;
+    background-color: #C4C4C4;
+}
+
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 370px;
+    background-color: #C4C4C4;
+    height: 440px;
+}
+
+.produto-img{
+    background-color: white;
+    height: 230px;
+    width: 300px;
+}
+
+.produto-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 65px;
+    background-color: white;
+}
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.rodape{
+    display:flex;
+    margin-top: 40px;
+    height: 540px;
+    background-color: black;
+}
+.coluna-esq{
+    width: 50%;
+    height: 100%;
+}
+.coluna-dir{
+    width: 50%;
+    height: 100%;
+    
+}
+.texto2{
+    height: 340;
+    margin-top: 40px;
+}
+.texto{
+    margin-top: 40px;
+    height: 60%;
+}
+.forma-pag{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 35px;
+    height: 15%;
+
+}
+.texto p{
+    color: white;
+    margin: 10px 10px 0px 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: justify;
+}
+.quadrado{
+    width: 90px;
+    height: 90px;
+    background-color:white;
+}
+.texto2 p{
+    color: white;
+    margin: 10px 10px 0px 50px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: justify;
+}
+.produto-add a{
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+}
